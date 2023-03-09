@@ -2,7 +2,7 @@
 var historicoantigo01 = "", historicoantigo02 = "", historicoantigo03 = "", historicoantigo04 = "", historicoantigo05 = "", historicoantigo05 = "",resultado = "";
 
 function calcularregrade3() {
-    var primeirovalor, segundovalor, terceirovalor, quartovalor, quintovalor, resultadoo;
+    var primeirovalor, segundovalor, terceirovalor, quartovalor, quintovalor;
 
     //Recebimento dos valores.
     primeirovalor = document.getElementById('1Valor').value
@@ -19,7 +19,7 @@ function calcularregrade3() {
    historicoantigo01 = resultado
 
    //Calculo da regra de três.
-  resultado =  resultado = (terceirovalor * quartovalor * quintovalor) / (primeirovalor * segundovalor);
+  resultado = (terceirovalor * quartovalor * quintovalor) / (primeirovalor * segundovalor);
 
   // Exibição dos valores no h1 e impunt resultado.
   document.getElementById('resultadoo').value = resultado;
